@@ -11,8 +11,7 @@ public class GameMechanicsScript : MonoBehaviour {
 	int Score=0;
 	float TimeFromOneCircleToNext;
 
-
-	bool GameRunning = true;
+	
 	public GameObject OrangeCircle;
 	// Use this for initialization
 	void Start () {
