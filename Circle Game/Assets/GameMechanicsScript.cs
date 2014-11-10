@@ -9,6 +9,7 @@ public class GameMechanicsScript : MonoBehaviour {
 	bool TimerForNextCircle = true;
 	bool ReactionTimeFailure = false;
 	int Score=0;
+	int Highscore;
 	float TimeFromOneCircleToNext;
 
 	
@@ -22,6 +23,10 @@ public class GameMechanicsScript : MonoBehaviour {
 	void Update () {
 		if (ReactionTimeFailure) {
 			PlayerPrefs.SetInt("Player Score", Score);
+			Highscore=PlayerPrefs.GetInt("Player HighScore");
+			if (Score>Highscore){
+				PlayerPrefs.SetInt("Player HighScore", Score);
+			}
 			Application.LoadLevel("GameOverScene");
 					
 				} else {

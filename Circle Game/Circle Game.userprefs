@@ -1,10 +1,13 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Circle_point.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\GameOverScript.cs">
     <Files>
-      <File FileName="Assets\Circle_point.cs" Line="23" Column="3" />
-      <File FileName="Assets\GameMechanicsScript.cs" Line="15" Column="1" />
-      <File FileName="Assets\MainMenuMechanicsScript.cs" Line="15" Column="2" />
+      <File FileName="Assets\ScoreScript.cs" Line="2" Column="1" />
+      <File FileName="Assets\Circle_point.cs" Line="1" Column="1" />
+      <File FileName="Assets\GameMechanicsScript.cs" Line="1" Column="1" />
+      <File FileName="Assets\MainMenuMechanicsScript.cs" Line="1" Column="1" />
+      <File FileName="Assets\HighscoreScript.cs" Line="1" Column="1" />
+      <File FileName="Assets\GameOverScript.cs" Line="19" Column="40" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

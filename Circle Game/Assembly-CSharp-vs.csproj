@@ -48,6 +48,8 @@
   <ItemGroup>
      <Compile Include="Assets\Circle_point.cs" />
      <Compile Include="Assets\GameMechanicsScript.cs" />
+     <Compile Include="Assets\GameOverScript.cs" />
+     <Compile Include="Assets\HighscoreScript.cs" />
      <Compile Include="Assets\MainMenuMechanicsScript.cs" />
      <Compile Include="Assets\ScoreScript.cs" />
  <Reference Include="UnityEngine.UI">
