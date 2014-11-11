@@ -24,8 +24,10 @@ public class GameMechanicsScript : MonoBehaviour {
 		if (ReactionTimeFailure) {
 			PlayerPrefs.SetInt("Player Score", Score);
 			Highscore=PlayerPrefs.GetInt("Player HighScore");
-			if (Score>Highscore){
+			Debug.Log(Highscore);
+			if (Score > Highscore){
 				PlayerPrefs.SetInt("Player HighScore", Score);
+				Debug.Log("hallo");
 			}
 			Application.LoadLevel("GameOverScene");
 					
